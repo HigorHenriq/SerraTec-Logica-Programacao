@@ -1,0 +1,10 @@
+	*Expressão*
+
+Expressão = É quando a instrução é dada o que se deve fazer, para gerar a execução
+	L{Pode ser usada como copia de informação podendo ser tanto em numeração como textos.
+		L{EX: var fruta1 = "morango"	var fruta2 = "banana"
+
+	*Declaração*
+
+Declaração = É se tem as ações, mas não veêm o resultado, elas não alteram os estados.
+	L{ var, const, let

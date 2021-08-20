@@ -1,0 +1,17 @@
+	*Sintaxe*
+
+Sintaxe é um conjunto de regras nas quais as combinações de símbolos e palavras chaves
+que podem ser utilizadas.
+	L{Ex: Var x = 0
+	      Var y = 2
+	      Var somar = x + y
+	      console.log (`${somar}`) irá retornar variavel somar com o seu resultado.
+
+Na sintaxe é importante seguir a ordem dos simbolos e palavras chaves, pois se a ordem
+estiver errada o computador não entenderá o que teria sido dito e irá retornar um erro.
+
+	*Semântica*
+
+A semântica é que irá determinar o que significa cada frase escrita na linguagem de
+programação em que estiver sendo usada.
+Ela necessita ser precisa e completa, para que não ocorra engano.

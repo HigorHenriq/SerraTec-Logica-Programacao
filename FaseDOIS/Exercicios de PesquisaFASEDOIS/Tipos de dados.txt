@@ -1,0 +1,41 @@
+	*Tipos de dados*
+
+Quantidade de vendedores da loja == Number integer
+
+Nome da rua, com número e complemento == String
+
+Preço do etanol comum == Number integer
+
+Estado de iluminação de uma lâmpada == Boolean
+
+CEP do endereço, com hífen == String
+
+Mostrador com um dígito dentro do elevador, indicando o andar do prédio onde ele está passando == Number integer
+
+Led que indica o pressionamento do botão do elevador == Boolean
+
+Data de aniversário do professor == Date 
+
+Peso do prato na balança do restaurante == Float
+
+Número de bois no curral da fazenda == Number integer
+
+Dia completo da páscoa nesse ano == Date
+
+Quantidade de laranjas na caixa = Number integer
+
+Uma vogal minúscula == String
+
+Título de um livro == String
+
+Limite do cartão de crédito == Number integer
+
+Horário de transmissão do jogo == Float
+
+Altura de um prédio == Float
+
+Páginas do caderno == Number integer
+
+Sala de reunião está disponível (ou ocupada) == Boolean
+
+Alternativas do enunciado da questão de múltipla escolha == Boolean

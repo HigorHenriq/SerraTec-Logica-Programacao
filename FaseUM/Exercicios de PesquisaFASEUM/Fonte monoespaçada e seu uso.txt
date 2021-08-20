@@ -1,0 +1,4 @@
+	*Fonte Monoespaçada*
+
+Fonte monoespaçada é quando uma fonte tem todos os seus caracteres têm a mesma largura
+e altura. isso é relacionada à parte responsável por sua aparência altamente consistente.

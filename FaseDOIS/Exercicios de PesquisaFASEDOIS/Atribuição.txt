@@ -1,0 +1,7 @@
+	*Atribuição*
+
+Uma atribuição é uma declaração básica. Um comando para armazenar valores.
+Um programa precisa ter acesso a informações. A calculadora, por exemplo,
+precisa saber quais foram os números digitados
+e a operação matemática. Essas informações - ou dados - precisam ser guardadas na memória do programa.
+A atribuição define um novo valor a ser armazenado.

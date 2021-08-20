@@ -1,0 +1,3 @@
+//Curto circuito
+
+//Extensão que marca com cores os if e elses correspondetens

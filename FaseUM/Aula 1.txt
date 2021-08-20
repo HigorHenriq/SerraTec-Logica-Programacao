@@ -1,0 +1,7 @@
+	*Aula 1*
+
+cd .. = Voltar para uma pasta anterior
+
+cd + nome da pasta destino = Ir para a pasta de sua escolha.
+
+Numeros que não são operaveis são iguais strings Ex: CPF, CEP ...

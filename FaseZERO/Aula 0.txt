@@ -1,0 +1,8 @@
+	*Aula 1*
+
+F12 = Abrir o console .DevTools do navegador.
+
+ctrl + L = limpar o log
+
+(" ") (' ') (` `) = são formas de escrever os textos no console.
+

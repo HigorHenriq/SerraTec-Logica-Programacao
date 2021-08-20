@@ -1,0 +1,73 @@
+	*Aula 2*
+
+	*Atribuição*
+
+Uma atribuição é uma declaração básica. Um comando para armazenar valores.
+Um programa precisa ter acesso a informações. A calculadora, por exemplo, precisa saber quais foram os números digitados
+e a operação matemática. Essas informações - ou dados - precisam ser guardadas na memória do programa.
+A atribuição define um novo valor a ser armazenado.
+
+	*Variável*
+
+É um nome simbólico para representar um espaço de memória. Nesse espaço de memória vamos armazenar um valor. E esse valor pode ser livremente alterado, ou seja, o valor pode variar, é variável.
+
+Exemplo: Preciso guardar o Nome da empresa no meu programa. Se eu digitar no programa, toda vez que eu precisar trocar de empresa, preciso gerar um novo programa. Se eu tiver várias empresas, ao invés de colocar o nome de cada empresa no sistema, uso variáveis para isso, e posso digitar o nome da empresa sempre que precisar.
+
+Uma varável (var) possui um IDENTIFICADOR (precisa começar com uma letra) e um DECLARAÇÃO (que recebe um valor)
+
+Em JavaScript
+Ao invés de utilizar o tipo de dados, utilizamos a palavra var.
+<var> <espaço> <identificador>;
+var (variável) nome; (identificador)
+
+Sinais de atribuição
+	chamado ‘recebe’
+	*Conceito
+	:= ou = ou <-
+	*JavaScript
+	=
+
+string (tipo de variável) nome = "leandro"
+A variável NOME tipo STRING recebe o VALOR/ATRIBUIÇÃO "leandro"
+OBS: Se o Valor for tipo string, precisa estar entre aspas
+
+
+No javascript é possivel utilizar varios identificadores em uma mesma var
+	L{Ex: String nome, endereço, bairro; ou var nome,endereço, bairro; (Não recomendado)
+	      Boolean PossuiCarro, EstaEmpregado;
+
+*Os Numeros Inteiros cabe dentro de uma Float, mas não ao contrario.
+
+	*Tipos de Atribuição*
+
+Literal = quando o programador define o proprio valor da var
+	L{ Var numero = 2
+
+Expressão = É a copia de informação pode ser utilizado tanto em numeração como textos.
+	L{EX: var fruta1 = "morango"	var fruta2 = "banana"
+	L{    fruta1 = fruta2
+	L{    fruta1 agora vira banana
+
+	L{var nome = "Higor"
+	L{var carta = "Olá prezado amigo"
+	L{var final = carta + nome ou final= carta + " : " + nome + ", Boa Tarde"
+	L{console.log(final)
+	L{Olá prezado amigo Higor ou Olá prezado amigo : Higor, Boa Tarde
+
+//Vírgula == usado para separar (Não é operador)
+//Ponto == casas decimais; pode ser um comando em sequencia
+
+	*Função*
+
+*Função = Um código pronto escrito por outro programador*
+
+Math.trunc() = Ele é utilizado para cortar todas as decimais deixando somente o valor inteiro
+	L{Trunch = Cortar
+
+Math.random() = retorna um número pseudo-aleatório no intervalo [0, 1], ou seja, de 0 (inclusivo)
+até, mas não incluindo o 1 (exclusivo)
+
+	*Funcão implícita, ou indireta*
+
+acontece dentro de uma função
+read(Número)

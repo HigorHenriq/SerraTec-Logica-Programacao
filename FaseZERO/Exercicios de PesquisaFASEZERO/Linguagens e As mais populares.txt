@@ -1,0 +1,32 @@
+	*Quantidade de Linguagens*
+
+Não se sabe ao certo quantas linguagens de programação existem milhares ao redor do mundo,
+a cada momento surge uma nova onde foram criadas para atender diversas necessidades
+diferentes e até mesmo no caso suprir o que tinha de problema em uma anterior. 
+
+A linguagem de programação é um método padronizado, formado por um conjunto de regras
+sintáticas e semânticas, de implementação de um código fonte - que pode ser compilado 
+e transformado em programa de computador ou usado como script interpretado.
+
+	*Lista de linguagens mais populares*
+
+1. C			6. Visual Basic
+2. Java			7. JavaScript
+3. phyton		8. PHP
+4. C++			9. R
+5. C#			10. SQL
+
+Fonte: https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o
+
+A linguagem C é a mais antiga e serve para desenvolver códigos para diversas.
+É conhecida como uma linguagem de sistemas, a linguagem C pode ser utilizada para 
+programar microcontroladores em aplicações.
+
+A linguagem JAVA é mais recente que a linguagem C, mas já tem anos de mercado,
+ela é tradicional e popular. É considerada como sendo mais fácil de aprender 
+do que a linguagem C. Pode ser utilizada para aplicações mais simples até aplicações
+de negócio para grandes empresas, além de ser estável.
+
+A linguagem PYTHON é a mais recente e a mais olhada atualmente, pois não é muito 
+difícil deaprender.É uma linguagem voltada para análise de dados. Muito usada
+para o desenvolvimento de  aplicações  de machine learning e A.I.

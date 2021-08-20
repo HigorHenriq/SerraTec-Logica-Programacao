@@ -1,0 +1,41 @@
+	*Tipos de dados*
+
+Quantidade de vendedores da loja == Number inter
+
+Nome da rua, com número e complemento == String
+
+Preço do etanol comum == Number inter
+
+Estado de iluminação de uma lâmpada == Boolean
+
+CEP do endereço, com hífen == String
+
+Mostrador com um dígito dentro do elevador, indicando o andar do prédio onde ele está passando == Number Inter
+
+Led que indica o pressionamento do botão do elevador == Boolean
+
+Data de aniversário do professor == Date 
+
+Peso do prato na balança do restaurante == Float
+
+Número de bois no curral da fazenda == Number inter
+
+Dia completo da páscoa nesse ano == Date
+
+Quantidade de laranjas na caixa = Number inter
+
+Uma vogal minúscula == String
+
+Título de um livro == String
+
+Limite do cartão de crédito == Number inter
+
+Horário de transmissão do jogo == Number inter
+
+Altura de um prédio == Float
+
+Páginas do caderno == Number inter
+
+Sala de reunião está disponível (ou ocupada) == Boolean
+
+Alternativas do enunciado da questão de múltipla escolha == Boolean

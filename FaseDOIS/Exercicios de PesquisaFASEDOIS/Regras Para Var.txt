@@ -1,0 +1,15 @@
+	*Regras De Nomes Para Variaveis*
+
+Para se criar uma variavel basta utilizar o (var) e para determinar o seu valor,
+utiliza o operador (=).
+
+*Lembrando que letras Maiusculas é diferente de letras minusculas na hora de
+usar como identificador de sua var.
+	L{Ex: var Nome != var nome
+
+No JavaScript aceita alguns caracteres UTF-8 ou palavras com acento, mas isso depende do
+navegador (Porém não recomendado)
+
+Números, Underline'_' e Cifrão '$' também podem ser utilizados, mas não se é o recomendado
+
+*Alguns nomes não podem ser utilizados devido a serem reservados para a linguagem.

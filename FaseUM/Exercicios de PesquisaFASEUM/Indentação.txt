@@ -1,0 +1,9 @@
+	*Indentação*
+
+Indentação é o ato de afastar o texto da sua margem, geralmente inserindo espaços
+entre a margem e o começo do parágrafo.
+
+Como identar um código = Pode ser utilizado as teclas de atalho SHIFT + ALT + F,
+para identar todo o código ou em situações em que precisa apenas mover parte do
+código pra direita ou esquerda, pode selecionar parte do código que necessita e
+usar TAB pra mover pra direita ou SHIFT + TAB pra mover pra esquerda.
