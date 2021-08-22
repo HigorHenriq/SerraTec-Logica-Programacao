@@ -87,3 +87,21 @@ switch (fruta) {
   default:
     console.log('Sem informações sobre a fruta.');
 }
+
+# Incrementação
+
+Ao definir a opção ++ ou -- em uma outra variavel, ela não vai me entregar o valor já somado e sim o valor atual da variavel
+
+## Com o ++ ou -- Depois
+>Em Resumo basta pensar que há um delay de 1ms(1linha) para executar a ação, ele só executa a soma ou subtração depois
+* Ex var numero = 15;
+*  var resposta = numero++; (Neste momento a var resposta ainda recebe 15)
+*  console.log(numero)(Agora se eu for ver o valor aqui, ele já irá ter somado e resposta está valendo 16)
+*  console.log(resposta)(Aqui a resposta ainda continuara valendo 15)
+
+## Com o ++ ou -- Antes
+>Em Resumo, o ++ antes ele ja realiza a ação no inicio
+* Ex var numero = 15;
+*  var resposta = ++numero; (Neste momento a var numero ja irá valer 16, assim como a resposta)
+*  console.log(numero)(Agora ja está valendo 16)
+*  console.log(resposta)(Aqui já estará valendo 16)
