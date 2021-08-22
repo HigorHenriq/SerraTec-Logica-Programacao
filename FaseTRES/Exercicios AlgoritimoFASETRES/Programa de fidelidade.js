@@ -7,3 +7,9 @@ corresponde a 1 ponto.
 const prompt = require("prompt-sync")()
 
 var pergunta = prompt('Verifique seus pontos em cupons, digite o número dele: ')
+
+var quantidade = pergunta
+
+var pontos = quantidade;
+
+console.log(`Você tinha ${quantidade} cupom agora você tem ${pontos} pontos`);
