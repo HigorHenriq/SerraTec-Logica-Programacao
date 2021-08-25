@@ -5,41 +5,10 @@ triplicar o valor.
 */
 const prompt = require("prompt-sync")()
 
-var pergunta = 5//prompt('Verifique seus pontos em cupons, digite o número dele: ')
-var mult = pergunta * 2
+var pergunta = prompt('Multiplique seus pontos, digite o número dele: ')
 
-switch(mult){
-    case 0:
-    console.log('Você com a promoção agora tem 0 cupons');
-        break;
-    case 2:
-    console.log('Você com a promoção agora tem 4 cupons');
-        break;
-    case 3:
-    console.log('Você com a promoção agora tem 6 cupons');
-        break;
-    case 4:
-    console.log('Você com a promoção agora tem 8 cupons');
-        break;
-    case 5:
-    console.log('Você com a promoção agora tem 10 cupons');
-        break;
-    case 6:
-    console.log('Você com a promoção agora tem 12 cupons');
-        break;
-    case 7:
-    console.log('Você com a promoção agora tem 7 cupons');
-        break; 
-    case 8:
-    console.log('Você com a promoção agora tem 16 cupons');
-        break;
-    case 9:
-    console.log('Você com a promoção agora tem 18 cupons');
-        break; 
-    case 10:
-    console.log('Você com a promoção agora tem 20 cupons');
-        break;   
-    default:
-        console.log('Não idetificamos sua resposta');
-        break;
-}
+var quantidade = pergunta
+
+var mult = quantidade * 2;
+
+console.log(`Você tinha ${quantidade} agora você tem ${mult}`);

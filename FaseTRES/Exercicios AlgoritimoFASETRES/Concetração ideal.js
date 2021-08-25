@@ -8,7 +8,8 @@ que precisam ser misturados para preenchimento do vasilhame.
 
 var porc = 70
 var ml = 1000
-var calc = ml/ porc
+
+var calc = 1000 % 70
 var int = Math.floor(calc);
 
 console.log(`${int}`);

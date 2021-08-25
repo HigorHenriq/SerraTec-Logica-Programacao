@@ -6,28 +6,10 @@ corresponde a 1 ponto.
 */
 const prompt = require("prompt-sync")()
 
-var pergunta = 1//prompt('Verifique seus pontos em cupons, digite o número dele: ')
+var pergunta = prompt('Verifique seus pontos em cupons, digite o número dele: ')
 
-switch(pergunta){
-    case 0:
-    console.log('Você tem 0 cupons');
-        break;
-    case 1:
-    console.log('Você tem 1 cupons');
-        break;
-    case 2:
-    console.log('Você tem 2 cupons');
-        break;
-    case 3:
-    console.log('Você tem 3 cupons');
-        break;
-    case 4:
-    console.log('Você tem 4 cupons');
-        break;
-    case 5:
-    console.log('Você tem 5 cupons');
-        break;
-    default:
-        console.log('Não idetificamos sua resposta');
-        break;
-}
+var quantidade = pergunta
+
+var pontos = quantidade;
+
+console.log(`Você tinha ${quantidade} cupom agora você tem ${pontos} pontos`);

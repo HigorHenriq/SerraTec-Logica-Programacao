@@ -15,7 +15,7 @@ var final_cpf = pergunta_cpf;
 
 var par = final_cpf && ultimo_digito_dia  == 0 || final_cpf && ultimo_digito_dia == 2 || final_cpf && ultimo_digito_dia == 4 || final_cpf && ultimo_digito_dia == 6 || final_cpf && ultimo_digito_dia == 8;
 
-if(par == true){
+if(par){
     console.log(`Pares pode entrar na loja`);
 }
 else{

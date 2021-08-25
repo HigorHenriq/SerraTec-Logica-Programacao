@@ -16,6 +16,9 @@ console.log(`Dia do aniversario: ${pergunta_niver}`);
 
 var resposta_signo = prompt('Qual o seu signo?: ');
 
+var int = resposta_signo == 'Aquario'
+console.log('Você é inteligente? ', int)
+/*
 if(resposta_signo == 'Aquario'){
     console.log('Você é inteligente!');
-}
+}*/

@@ -59,3 +59,15 @@ para (var i = 0; i < fim; i++)
 ```
 
 No caso acima, a *instrução* será executada I * J vezes.
+
+# Condições de fluxo e parada
+
+# Parada abrupta
+
+## break - Interrompe o laço e passa o fluxo para o comando a seguir.
+
+# Interromper iteração corrente
+
+## continue - Volta ao início do laço, desprezando as instruções abaixo do comando.
+
+>Esses comandos não podem ser utilizados fora de um laço. E quando os laços estão encadeados, o comando é válido para o laço mais interno.
