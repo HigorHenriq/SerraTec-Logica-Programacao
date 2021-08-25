@@ -38,6 +38,7 @@ var total_alunos = lista_alunos.length;
 console.log(`Total de alunos ${total_alunos}`);
 
 //UTILIZADA PARA IR PASSANDO DE ALUNO EM ALUNO PARA ENCONTRAR O PESQUISADO
+//O FOR ABAIXO PERCORRE A LISTA DE ALUNOS NOMES DOS ALUNOS
 for(i = 0; i <= total_alunos; i++){
     //CRITERIO DE BUSCA
     if(lista_alunos[i] == pesquisar_aluno){
@@ -53,26 +54,34 @@ else{
     console.log(`O aluno ${pesquisar_aluno} está na cadeira ${encontrado}`)
 }
 console.log(";--------------------------;")
+
 //LISTA DE ALUNOS PRESENTES
+var NomePresentes = '';
+//O FOR ABAIXO PERCORRE A LISTA DE PRESENÇA DE ALUNOS
 for(p = 0; p <= total_alunos; p++){
     //CRITERIO DE BUSCA
     if(lista_presenca[p] == true){
         presentes = p;
+        NomePresentes = lista_alunos[p];
 
         if(presentes > -1){
-            console.log(`O aluno ${presentes} está presente`)
+            console.log(`O aluno ${NomePresentes}, na cadeira ${presentes} está presente`)
         }
     }
 }
 console.log(";--------------------------;")
+
 //ALUNOS QUE FALTOU
+var NomeAusentes = '';
+//O FOR ABAIXO PERCORRE A LISTA DE PRESENÇA DE ALUNOS
 for (f = 0; f <= total_alunos; f++){
     //CRITERIO DE BUSCA
     if(lista_presenca[f] == false){
         ausentes = f; 
+        NomeAusentes = lista_alunos[f];
 
         if(ausentes > -1){
-            console.log(`O aluno ${ausentes} está ausente`);
+            console.log(`O aluno ${NomeAusentes}, na cadeira ${ausentes} está ausente`);
         }
     }
 }
