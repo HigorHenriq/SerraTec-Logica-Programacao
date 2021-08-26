@@ -24,3 +24,13 @@ const = Uma vez atribuida seu valor, não podemos mais declarar outra igual ou a
 
 Uma expressão regular, ou "Regex", é uma forma de identificar padrões dentro de strings. Pode ser usada para separar caracteres, palavras ou qualquer texto que possa conter padrões.
     * https://regex101.com/
+
+# Objetos
+
+    * Representar modelos da vida real - o domínio
+        * Agrupar “características”
+    * Conceito nome: valor
+    * Notação de ponto
+    * Propriedade == variável dentro do objeto
+
+Para separar cada informação utiliza a virgula (,). Exemplo no arquivo objetos.

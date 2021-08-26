@@ -51,7 +51,6 @@ console.log("!=========DIGITAR OUTRA COISA SERÁ DESCONSIDERADA=======!");
 
 
 //PROCESSAMENTO
-do{
 
     var escolha = prompt("!=============QUAL SERÁ A BEBIDA============!", );
     var bebida_num_escolha = parseInt(escolha);
@@ -82,6 +81,8 @@ do{
     console.log(`Opções de pagamento:\n(1)${form1} Reais\n(2)${form2} Reais\n(3)${form3} Reais\n(4)${form4} Reais`)
     //ESCOLHA DO PAGAMENTO ATRAVES DIGITAÇÃO
 
+    do{
+        
     var pergunta_pag = prompt("!=============QUAL SERÁ A FORMA DE PAGAMENTO============!", );
     var metodo_de_pagamento = parseInt(pergunta_pag);
 
