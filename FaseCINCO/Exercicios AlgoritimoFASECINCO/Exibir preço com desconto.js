@@ -28,7 +28,7 @@ if (produto == '001'){
         var desconto = prompt('Exibir preço de desconto? ');
 
             if(desconto == 'sim'){
-                var calculo = 5 % cadeira_simples
+                var calculo = cadeira_simples * 0.05
                     console.log(`Desconto de: R$${calculo}`)
             }
 }
@@ -39,7 +39,7 @@ if (produto == '002'){
     var desconto = prompt('Exibir preço de desconto? ');
 
         if(desconto == 'sim'){
-            var calculo = 5 % cadeira_luxo;
+            var calculo = cadeira_luxo * 0.05;
                 console.log(`Desconto de: R$${calculo}`)
         }
 }
@@ -50,7 +50,7 @@ if (produto == '003'){
     var desconto = prompt('Exibir preço de desconto? ');
 
         if(desconto == 'sim'){
-            var calculo = 5 % mesa_simples;
+            var calculo = mesa_simples * 0.05;
                 console.log(`Desconto de: R$${calculo}`)
         }
 }
@@ -61,7 +61,7 @@ if (produto == '004'){
     var desconto = prompt('Exibir preço de desconto? ');
 
         if(desconto == 'sim'){
-            var calculo = 5 % mesa_luxo
+            var calculo = mesa_luxo * 0.05;
                 console.log(`Desconto de: R$${calculo}`)
         }
 }
@@ -72,7 +72,7 @@ if (produto == '005'){
     var desconto = prompt('Exibir preço de desconto? ');
 
         if(desconto == 'sim'){
-            var calculo = 5 % cama
+            var calculo = cama * 0.05;
                 console.log(`Desconto de: R$${calculo}`)
         }
 }

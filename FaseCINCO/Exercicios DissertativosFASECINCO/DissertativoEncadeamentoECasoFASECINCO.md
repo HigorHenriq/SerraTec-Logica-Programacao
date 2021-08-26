@@ -29,7 +29,7 @@ executadas?
 >o Break tem como função quebrar/parar, para não acontecer o caso do switch ler todos os casos
 
 6. Como relacionar várias alternativas a um mesmo conjunto de instruções?
-
+>Basta utilizar ela dentro do bloco da outra.
 
 7. Como criar uma alternativa para “nenhuma das anteriores”?
 >Basta utilizar o default
